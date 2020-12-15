@@ -26,7 +26,7 @@ body{
     display: block;
     color: #8B8B8B;
     align-self: center;
-    justify-self: center;
+    justify-self: stretch;
     font-family: 'Arimo', sans-serif;
     font-size: 20px;
     
