@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 235, 235);
+
+    
+}
+
+.nav-bar-container{
+    display: inline-grid;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    grid-template-rows: 50px;
+    grid-template-columns: [logo] 7% [home] 10% [vaccines] 10% [contact-us] 10% [mode-changer] 1fr;
+    grid-template-areas:
+    "logo home vaccines about-us mode-changer";
+    column-gap: 20px ;
+
+    
+    
+
+}
+.nav-bar-element{
+    display: block;
+    color: #8B8B8B;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+    
+
+}
+.nav-bar-container:hover{
+    color: red;
+}
+#logo{
+    grid-area: logo;
+    width: 30px;
+    cursor: pointer;
+    
+    
+    
+
+    
+}
+
+#home:hover{
+    color: black;
+    
+
+    }
+#vaccines:hover{
+    color: black;
+    }
+#about-us:hover{
+    color: black;
+    }
+
+#home{
+        grid-area: home;
+        cursor: pointer;
+        
+
+    }
+    
+#vaccines{
+    grid-area: vaccines;
+    cursor: pointer;
+    
+
+}
+#about-us{
+    grid-area: about-us;
+    cursor: pointer;
+
+    
+    
+}
+
+#mode-changer{
+    grid-area: mode-changer;
+    width: 30px;
+    text-align: left;
+    margin-right: 20px;
+    justify-self: end;
+    
+    
+    
+
+}
+.dark-logo{
+    width: 30px;
+    outline: none;
+    text-align: center;
+};
+    
